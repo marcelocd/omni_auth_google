@@ -1,24 +1,39 @@
 # README
+# OmniAuth Google Authentication
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails application demonstrates how to implement Google OAuth2 authentication using the OmniAuth gem. Users can sign in to the application using their Google accounts.
 
-Things you may want to cover:
+## Setup Instructions
 
-* Ruby version
+1. Clone the repository:
+```bash
+git clone git@github.com:your-username/omni_auth_google.git
+cd omni_auth_google
+```
 
-* System dependencies
+2. Install dependencies:
+```bash
+bundle install
+```
 
-* Configuration
+3. Start the Rails server:
+```bash
+rails s
+```
 
-* Database creation
+4. Open your browser and navigate to:
+```
+http://localhost:3000
+```
 
-* Database initialization
+5. Click on the "Sign in with Google" button to authenticate.
 
-* How to run the test suite
+## Requirements
 
-* Services (job queues, cache servers, search engines, etc.)
+- Ruby 3.0.0 or higher
+- Rails 7.0.0 or higher
+- A Google Cloud Platform account with OAuth 2.0 credentials configured
 
-* Deployment instructions
+## Note
 
-* ...
+Make sure you have set up your Google OAuth2 credentials and configured them in the application's environment variables before running the application.
