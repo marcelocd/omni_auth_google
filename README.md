@@ -1,7 +1,8 @@
-# README
 # OmniAuth Google Authentication
 
-This Rails application demonstrates how to implement Google OAuth2 authentication using the OmniAuth gem. Users can sign in to the application using their Google accounts.
+This Rails application _(created following [Deanin's tutorial](https://youtu.be/CnZnwV38cjo))_ demonstrates how to implement Google OAuth2 authentication using the OmniAuth gem. Users can sign in to the application using their Google accounts.
+
+![](google_oauth.gif)
 
 ## Setup Instructions
 
